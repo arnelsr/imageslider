@@ -28,7 +28,7 @@ document.addEventListener('click',function(e){
         case 'right-arrow':
             //next picture
             index=displayNextPicture();
-            setDotOpaque(index);
+            
             break;
         case 'dot0':
         case 'dot1':

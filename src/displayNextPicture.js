@@ -1,5 +1,5 @@
 
-
+import setDotOpaque from "./setDotOpaque";
 const displayNextPicture=()=>{
     //get all image holders
     //get image holder with display not none
@@ -19,6 +19,7 @@ const displayNextPicture=()=>{
                 j=0;
             }
             imageHolders[j].style.display='block';
+            setDotOpaque(j);
             return j;
            
            
